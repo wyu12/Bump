@@ -15,7 +15,7 @@ class App extends Component {
       <router>
       <NavBar></NavBar>
       
-      <div className="App">
+      <div className="App bg">
             <header className="App-header">
               <img src={logo} className="App-logo" alt="logo" /> 
               
