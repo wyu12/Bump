@@ -3,47 +3,44 @@ import HomePage from './HomePage.jsx';
 import NavBar from './NavBar.jsx';
 import logo from './logo.svg';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Form from 'react-bootstrap/Form';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Form from 'react-bootstrap/Form';
 
 class UserForm extends Component {
   render() {
     return (
-        <>
+      <>
         <Form>
-        <Form.Group controlId="exampleForm.ControlInput1">
-          <Form.Label>Email address</Form.Label>
-          <Form.Control type="email" placeholder="name@example.com" />
-        </Form.Group>
-        <Form.Group controlId="exampleForm.ControlSelect1">
-          <Form.Label>Example select</Form.Label>
-          <Form.Control as="select">
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </Form.Control>
-        </Form.Group>
-        <Form.Group controlId="exampleForm.ControlSelect2">
-          <Form.Label>Example multiple select</Form.Label>
-          <Form.Control as="select" multiple>
-            <option>1</option>
-            <option>2</option>
-            <option>3</option>
-            <option>4</option>
-            <option>5</option>
-          </Form.Control>
-        </Form.Group>
-        <Form.Group controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Example textarea</Form.Label>
-          <Form.Control as="textarea" rows="3" />
-        </Form.Group>
-      </Form>
+          <Form.Group controlId="formFirstName">
+            <Form.Label>First Name</Form.Label>
+            <Form.Control type="firstname" placeholder="Enter First Name" />
+            <Form.Text className="text-muted">
+            </Form.Text>
+          </Form.Group>
+
+          <Form.Group controlId="formLastName">
+            <Form.Label>Last Name</Form.Label>
+            <Form.Control type="lastname" placeholder="Enter Last Name" />
+            <Form.Text className="text-muted">
+            </Form.Text>
+          </Form.Group>
+
+          <Form.Group controlId="formWeeksPregnant">
+            <Form.Label>Weeks Pregnant</Form.Label>
+            <Form.Control type="weeks" placeholder="Enter Weeks Pregnant" />
+            <Form.Text className="text-muted">
+            </Form.Text>
+          </Form.Group>
+
+          <Form.Group controlId="formBasicPassword">
+            <Form.Label>Password</Form.Label>
+            <Form.Control type="password" placeholder="Password" />
+          </Form.Group>
+        </Form>
       </>
-      )
-    }
+    )
   }
-  export default UserForm;
+}
+export default UserForm;
 
 
