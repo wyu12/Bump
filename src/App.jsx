@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import HomePage from './HomePage.jsx';
 import NavBar from './NavBar.jsx';
+import Form from './Form.jsx';
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
@@ -39,7 +40,7 @@ class App extends Component {
               </a>
             </header>
           </div>
-      
+      <Form></Form>
       </router>
       )
     }
