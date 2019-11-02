@@ -12,6 +12,7 @@ class UserForm extends Component {
     return (
       <>
         <NavBar></NavBar>
+        <body>
         <Form>
           <Form.Group controlId="formFirstName">
             <Form.Label>First Name</Form.Label>
@@ -42,6 +43,8 @@ class UserForm extends Component {
             Submit
   </Button>
         </Form>
+        </body>
+        
       </>
     )
   }
