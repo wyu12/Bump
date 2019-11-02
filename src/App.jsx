@@ -8,14 +8,16 @@ import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import { browserHistory } from 'react-router';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
+import ReactDOM from 'react-dom';
+
 
 class App extends Component {
   render() {
     return (
       <router>
       <NavBar></NavBar>
-      
-      <div className="App bg">
+
+      <div className="App">
             <header className="App-header">
               <img src={logo} className="App-logo" alt="logo" /> 
               
@@ -30,17 +32,22 @@ class App extends Component {
              
              <a
                 className="App-link"
-                href="https://reactjs.org"
+                onClick={() => ReactDOM.render(<Form />, document.getElementById('root'))}
                 target="_blank"
-                rel="noopener noreferrer"
-              >
-                <Button variant="outline-light" size="lg">Sign in / Register</Button>
-      
-              
-              </a>
+                rel="noopener noreferrer">
+                <Button variant="primary" size="lg" style={{display: 'flex'}}>Sign in</Button>
+            </a>
+                <div></div>
+                <a
+                onClick={() => ReactDOM.render(<Form />, document.getElementById('root'))}
+                          className="App-link"
+                          target="_blank"
+                          rel="noopener noreferrer">
+                <Button variant="secondary" size="sm" style={{display: 'flex'}} >Click here to register</Button>
+                      </a>
+
             </header>
           </div>
-      <Form></Form>
       </router>
       )
     }
