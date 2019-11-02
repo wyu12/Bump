@@ -11,26 +11,36 @@ class App extends Component {
     return (
       <router>
       <NavBar></NavBar>
-
-        <div className="App">
-          <header className="App-header">
-
-            <img src={logo} className="App-logo" alt="logo" />
-            <p>
-              Edit <code>src/App.js</code> and save to reload.
-            </p>
-            <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn React
-            </a>
-          </header>
-        </div>
-        </router>
-    )
+      
+      <div className="App">
+            <header className="App-header">
+              <img src={logo} className="App-logo" alt="logo" /> 
+              
+              <h1>
+              Comprehensive Reproductive Health For All
+              </h1>
+             
+              {/* <br></br> */}
+              <h5>
+               Bump is a free, educational service, here to help 
+               you make more educated decisions about your pregnancy
+               </h5>
+             
+             <a
+                className="App-link"
+                href="https://reactjs.org"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="outline-light" size="lg">Sign in / Register</Button>
+      
+              
+              </a>
+            </header>
+          </div>
+      
+      </router>
+      )
+    }
   }
-}
-export default App;
+  export default App;
