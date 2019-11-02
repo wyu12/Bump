@@ -10,6 +10,7 @@ class UserForm extends Component {
   render() {
     return (
       <>
+      <NavBar></NavBar>
         <Form>
           <Form.Group controlId="formFirstName">
             <Form.Label>First Name</Form.Label>
@@ -37,10 +38,8 @@ class UserForm extends Component {
             <Form.Control type="password" placeholder="Password" />
           </Form.Group>
         </Form>
-      </>
+        </>
     )
   }
 }
 export default UserForm;
-
-
