@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import HomePage from './HomePage.jsx';
 import NavBar from './NavBar.jsx';
-import Form from './Form.jsx';
+import SignUpForm from './SignUpForm.jsx';
+import SignInForm from './SignInForm.jsx';
 import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
@@ -32,14 +33,14 @@ class App extends Component {
              
              <a
                 className="App-link"
-                onClick={() => ReactDOM.render(<Form />, document.getElementById('root'))}
+                onClick={() => ReactDOM.render(<SignInForm />, document.getElementById('root'))}
                 target="_blank"
                 rel="noopener noreferrer">
-                <Button variant="primary" size="lg" style={{display: 'flex'}}>Sign in</Button>
+                <Button variant="primary" size="lg" style={{display: 'flex'}}>Sign In</Button>
             </a>
                 <div></div>
                 <a
-                onClick={() => ReactDOM.render(<Form />, document.getElementById('root'))}
+                onClick={() => ReactDOM.render(<SignUpForm />, document.getElementById('root'))}
                           className="App-link"
                           target="_blank"
                           rel="noopener noreferrer">

@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import {Navbar,Nav,NavDropdown} from 'react-bootstrap';
 import ReactDOM from 'react-dom';
 import App from './App.jsx';
-import Form from './Form.jsx';
+import SignUpForm from './SignUpForm.jsx';
+
 
 const navStyle = {
   Navbar: {
@@ -23,7 +24,7 @@ class NavBar extends Component {
           <Nav className="mr-auto">
           </Nav>
           <Nav>
-            <Nav.Link onClick={() => ReactDOM.render(<Form />, document.getElementById('root'))}>Sign in</Nav.Link>
+            <Nav.Link onClick={() => ReactDOM.render(<SignUpForm />, document.getElementById('root'))}>Sign in</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
