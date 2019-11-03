@@ -1,3 +1,4 @@
+![Icon](https://i.imgur.com/9ImAF3x.png)
 ## Bump is an educational resource guide dedicated to helping mothers make better-informed decisions regarding themselves and their baby – not through informing, but by educating them. 
 
 We strongly believe that improving maternal and child health will have a significant impact on overall global health, education and development. We are dedicated to normalizing the disparity of information given to women of different socioeconomic statuses and races. We provide annotated, easy-to-read resources in a personalized timeline for our users. 
