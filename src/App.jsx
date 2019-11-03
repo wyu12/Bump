@@ -3,7 +3,7 @@ import HomePage from './HomePage.jsx';
 import NavBar from './NavBar.jsx';
 import SignUpForm from './SignUpForm.jsx';
 import SignInForm from './SignInForm.jsx';
-import logo from './logo.svg';
+import logo from './biglogo2.png';
 import './App.css';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
 import { browserHistory } from 'react-router';
