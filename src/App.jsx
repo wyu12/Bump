@@ -19,20 +19,18 @@ class App extends Component {
             <header className="App-header">
               <img src={logo} className="App-logo" alt="logo" /> 
               <h1>
-              Your Personal Guide to Pregnancy
+              Bump: Your Personal Guide to Pregnancy
               </h1>
-             
-              {/* <br></br> */}
-              <h5>
-               Bump is a free, educational service, here to guide you through your pregnancy
-               </h5>
+               <h3 className="sub">
+                We provide a free, educational service to help guide you through your pregnancy
+               </h3>
              
              <a
                 className="App-link"
                 onClick={() => ReactDOM.render(<SignInForm />, document.getElementById('root'))}
                 target="_blank"
                 rel="noopener noreferrer">
-                <Button  size="lg" style={{display: 'flex', border:'none', backgroundColor: '#657ea2'}}>Sign in</Button>
+                <Button  size="lg" style={{display: 'flex', border:'none', backgroundColor: '#657ea2'}}>Log in</Button>
             </a>
                 <div></div>
                 <a
