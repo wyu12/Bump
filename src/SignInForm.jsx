@@ -22,7 +22,7 @@ class UserForm extends Component {
           <Form>
           <Form.Group controlId="formEmail">
             <Form.Label>Email</Form.Label>
-            <Form.Control type="email" placeholder="Email" style={{width: "100%"}} />
+            <Form.Control type="email" value="Email" style={{width: "100%"}} />
             <Form.Text className="text-muted">
             </Form.Text>
           </Form.Group>
