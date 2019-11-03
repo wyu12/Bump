@@ -15,7 +15,6 @@ class UserForm extends Component {
   render() {
     return (
       <>
-        <NavBar></NavBar>
         <div className="App bg" >
           <header className="App-header">
 
@@ -23,9 +22,7 @@ class UserForm extends Component {
             <Form style={{ marginLeft: '44rem', marginRight: '44rem', padding: '15px', border: '2px solid grey' }}>
               <Form.Group controlId="formEmail">
                 <Form.Label>Email</Form.Label>
-                <Form.Control type="email" value="Email" style={{ width: "100%" }} />
-                <Form.Text className="text-muted">
-                </Form.Text>
+                <Form.Control type="email" placeholder="Email" style={{ width: "100%" }} />
               </Form.Group>
 
               <Form.Group controlId="formBasicPassword">

@@ -24,7 +24,7 @@ class App extends Component {
              
               {/* <br></br> */}
               <h5>
-               Bump is a free, educational service, here to help you make more educated decisions about your pregnancy
+               Bump is a free, educational service, here to guide you through your pregnancy
                </h5>
              
              <a

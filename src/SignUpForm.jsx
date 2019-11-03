@@ -17,7 +17,6 @@ class UserForm extends Component {
   render() {
     return (
       <>
-        <NavBar></NavBar>
         <div className = "App bg">
         <header className = "App-header">
         <center><h2>Register</h2></center>
