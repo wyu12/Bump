@@ -19,7 +19,7 @@ class App extends Component {
             <header className="App-header">
               <img src={logo} className="App-logo" alt="logo" /> 
               <h1>
-              Comprehensive Reproductive Health For All
+              Your Personal Guide to Pregnancy
               </h1>
              
               {/* <br></br> */}

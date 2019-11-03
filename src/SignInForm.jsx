@@ -16,27 +16,30 @@ class UserForm extends Component {
     return (
       <>
         <NavBar></NavBar>
-        <body>
-          <div style={{marginLeft:'44rem', marginTop: '15rem', marginRight:'44rem', padding: '15px', border:'2px solid grey'}}>
-          <center><h2>Login</h2></center>
-          <Form>
-          <Form.Group controlId="formEmail">
-            <Form.Label>Email</Form.Label>
-            <Form.Control type="email" value="Email" style={{width: "100%"}} />
-            <Form.Text className="text-muted">
-            </Form.Text>
-          </Form.Group>
+        <div className="App bg" >
+          <header className="App-header">
 
-          <Form.Group controlId="formBasicPassword">
-            <Form.Label>Password</Form.Label>
-            <Form.Control type="password" placeholder="Password" style={{width: "100%"}} />
-          </Form.Group>
-          <Button variant="primary" type="submit" onClick = {() => ReactDOM.render(<Fullpage />, document.getElementById('root'))}>
-            Sign in
+            <center><h2>Login</h2></center>
+            <Form style={{ marginLeft: '44rem', marginRight: '44rem', padding: '15px', border: '2px solid grey' }}>
+              <Form.Group controlId="formEmail">
+                <Form.Label>Email</Form.Label>
+                <Form.Control type="email" value="Email" style={{ width: "100%" }} />
+                <Form.Text className="text-muted">
+                </Form.Text>
+              </Form.Group>
+
+              <Form.Group controlId="formBasicPassword">
+                <Form.Label>Password</Form.Label>
+                <Form.Control type="password" placeholder="Password" style={{ width: "100%" }} />
+              </Form.Group>
+              <Button variant="primary" type="submit" onClick={() => ReactDOM.render(<Fullpage />, document.getElementById('root'))}>
+                Sign in
   </Button>
-  </Form>
-          </div>
-        </body>
+            </Form>
+          </header>
+        </div>
+
+
       </>
     )
   }

@@ -18,10 +18,10 @@ class UserForm extends Component {
     return (
       <>
         <NavBar></NavBar>
-        <body>
-        <div style={{marginLeft:'44rem', marginTop: '10rem', marginRight:'44rem', padding: '15px', border:'2px solid grey'}}>
+        <div className = "App bg">
+        <header className = "App-header">
         <center><h2>Register</h2></center>
-          <Form>
+          <Form style={{marginLeft:'44rem', marginRight:'44rem', padding: '15px', border:'2px solid grey'}}>
           <Form.Group controlId="formHorizontalFirstName">
             <Form.Label>First Name
             </Form.Label>
@@ -59,8 +59,8 @@ class UserForm extends Component {
             Register
   </Button>
   </Form>
-          </div>
-        </body>
+        </header>
+        </div>
       </>
     )
   }
