@@ -22,7 +22,7 @@ class App extends Component {
               Bump: Your Personal Guide to Pregnancy
               </h1>
                <h3 className="sub">
-                We provide a free, educational service to help guide you through your pregnancy
+                We provide a free, educational service to help you understand your pregnancy and make well-informed decisions.
                </h3>
              
              <a
