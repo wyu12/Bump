@@ -3,7 +3,11 @@ import {Navbar,Nav,NavDropdown} from 'react-bootstrap';
 import ReactDOM from 'react-dom';
 import ReactFullpage from '@fullpage/react-fullpage';
 import { BrowserRouter as Router, Route, Link} from 'react-router-dom';
-import img from './32Weeks.png';
+import img2 from './32Weeks.png';
+import img1 from './28wk.png';
+import img3 from './38wk.png';
+
+
 
 
 const Fullpage = () => (
@@ -16,13 +20,13 @@ const Fullpage = () => (
   render={() => (
     <div>
       <div className="section">
-        <img src={img} alt="32 weeks" style={{height: "100%", width: "100%"}}/>
+        <img src={img1} alt="32 weeks" style={{height: "100%", width: "100%"}}/>
       </div>
       <div className="section active">
-        <img src={img} alt="32 weeks" style={{height: "100%", width: "100%"}}/>
+        <img src={img2} alt="32 weeks" style={{height: "100%", width: "100%"}}/>
       </div>
       <div className="section">
-        <img src={img} alt="32 weeks" style={{height: "100%", width: "100%"}}/>
+        <img src={img3} alt="32 weeks" style={{height: "100%", width: "100%"}}/>
       </div>
 
 
