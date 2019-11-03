@@ -17,7 +17,7 @@ class UserForm extends Component {
       <>
         <NavBar></NavBar>
         <body>
-          <div style={{marginLeft:'0.8rem', marginTop: '0.8rem'}}>
+          <div style={{marginLeft:'44rem', marginTop: '15rem'}}>
           <Form>
           <Form.Group controlId="formEmail">
             <Form.Label>Email</Form.Label>

@@ -32,7 +32,7 @@ class App extends Component {
                 onClick={() => ReactDOM.render(<SignInForm />, document.getElementById('root'))}
                 target="_blank"
                 rel="noopener noreferrer">
-                <Button  size="lg" style={{display: 'flex', border:'none', backgroundColor: '#657ea2'}}>Sign In</Button>
+                <Button  size="lg" style={{display: 'flex', border:'none', backgroundColor: '#657ea2'}}>Sign in</Button>
             </a>
                 <div></div>
                 <a
