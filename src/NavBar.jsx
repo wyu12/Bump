@@ -4,6 +4,7 @@ import {Navbar,Nav,NavDropdown} from 'react-bootstrap';
 import ReactDOM from 'react-dom';
 import App from './App.jsx';
 import SignUpForm from './SignUpForm.jsx';
+import Fullpage from './Fullpage.jsx';
 
 
 const navStyle = {
@@ -24,7 +25,7 @@ class NavBar extends Component {
           <Nav className="mr-auto">
           </Nav>
           <Nav>
-            <Nav.Link onClick={() => ReactDOM.render(<SignUpForm />, document.getElementById('root'))}>Sign in</Nav.Link>
+            <Nav.Link onClick={() => ReactDOM.render(<Fullpage />, document.getElementById('root'))}>Sign in</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

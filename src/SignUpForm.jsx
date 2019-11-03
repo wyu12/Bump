@@ -8,6 +8,8 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
+import ReactDOM from 'react-dom';
+import Fullpage from './Fullpage.jsx'
 
 class UserForm extends Component {
   render() {
@@ -15,7 +17,7 @@ class UserForm extends Component {
       <>
         <NavBar></NavBar>
         <body>
-          <div style={{marginLeft:'0.8rem', marginTop: '0.8rem'}}> 
+          <div style={{marginLeft:'0.8rem', marginTop: '0.8rem'}}>
           <Form>
           <Form.Group controlId="formHorizontalFirstName">
             <Form.Label>First Name
@@ -50,7 +52,7 @@ class UserForm extends Component {
             <Form.Label>Password</Form.Label>
             <Form.Control type="password" placeholder="Password" style={{width: "30%"}} />
           </Form.Group>
-          <Button variant="primary" type="submit">
+          <Button variant="primary" type="submit" onClick = {() => ReactDOM.render(<Fullpage />, document.getElementById('root'))}>
             Submit
   </Button>
   </Form>

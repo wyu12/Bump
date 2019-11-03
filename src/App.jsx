@@ -11,17 +11,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import ReactDOM from 'react-dom';
 
-
 class App extends Component {
   render() {
     return (
       <router>
-      <NavBar></NavBar>
-
       <div className="App bg">
             <header className="App-header">
               <img src={logo} className="App-logo" alt="logo" /> 
-              
               <h1>
               Comprehensive Reproductive Health For All
               </h1>
@@ -36,7 +32,7 @@ class App extends Component {
                 onClick={() => ReactDOM.render(<SignInForm />, document.getElementById('root'))}
                 target="_blank"
                 rel="noopener noreferrer">
-                <Button variant="primary" size="lg" style={{display: 'flex'}}>Sign In</Button>
+                <Button  size="lg" style={{display: 'flex', border:'none', backgroundColor: '#657ea2'}}>Sign In</Button>
             </a>
                 <div></div>
                 <a
@@ -44,7 +40,7 @@ class App extends Component {
                           className="App-link"
                           target="_blank"
                           rel="noopener noreferrer">
-                <Button variant="secondary" size="sm" style={{display: 'flex'}} >Click here to register</Button>
+                <Button variant="secondary" size="sm" style={{display: 'flex', border:'none', backgroundColor: '#acbed8'}} >Click here to register</Button>
                       </a>
 
             </header>
